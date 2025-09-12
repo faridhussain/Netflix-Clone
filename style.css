@@ -66,7 +66,7 @@ nav{
     padding-bottom: 10px;
 }
 .main-content h5{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding-bottom: 15px;
 }
 .main-content p{
@@ -75,4 +75,30 @@ nav{
 }
 .main-content input{
     width: 200px;
+}
+.system{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.system input{
+    height: 40px;
+    width: 300px;
+    background-color: rgba(28, 25, 25, 0.8);
+    border-radius: 4px;
+    padding: 0 10px;
+    border: 1px solid #555050;
+}
+.system input::placeholder{
+    color: rgb(179, 171, 171);
+}
+.system button{
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 4px;
 }
