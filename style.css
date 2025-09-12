@@ -102,3 +102,72 @@ nav{
     border: 1px solid red;
     border-radius: 4px;
 }
+
+/* Trending Section */
+
+.trending-section{
+    width: 80%;
+    margin: 20px auto;
+}
+.trending-section h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    padding: 20px 0; 
+}
+.box-container{
+    width: 100%;
+    display: flex;
+    padding: 10px 0 10px 20px;
+    gap: 20px;
+}
+.box-container .box{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+    transition: transform 0.3s ease;
+    width: 190px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: right center;
+    font-size: 70px;
+    -webkit-text-stroke: 1px white;
+    color: black;
+    padding: 130px 0;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box-container .box-1{
+    background-image: url(assets/wednesday.webp);
+}
+.box-container .box-2{
+    background-image: url(assets/Raid2.webp);
+
+}
+.box-container .box-3{
+    background-image: url(assets/Saiyara.webp);
+
+}
+.box-container .box-4{
+    background-image: url(assets/kapilSharmaShow.webp);
+
+}
+.box-container .box-5{
+    background-image: url(assets/kingdomSaamrajya.webp);
+}
+.box-container .box:hover{
+    transform: scale(1.1);
+}
+.view-more{
+    height: 100px;
+    margin-top: 70px;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: rgba(57, 52, 52, 0.7);
+    border-radius: 4px;
+}
+.box-container .view-more:hover{
+    background-color: rgba(75, 68, 68, 0.7);
+}
