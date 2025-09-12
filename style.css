@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(assets/header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.language-btn{
+    background: transparent;
+    color: white;
+    height: 25px;
+    margin-right: 4px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid rgb(107, 98, 98);
+}
+.signin-btn{
+    background-color: red;
+    color: white;
+    height: 25px;
+    margin-right: 10px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid red;
+    font-size: 11px;
+    font-weight: 700;
+}
+.main-content{
+    height: 80vh;
+    padding: 40px 40px;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 250px 0px 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content h1{
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-bottom: 10px;
+}
+.main-content h5{
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+}
+.main-content p{
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+}
+.main-content input{
+    width: 200px;
+}
