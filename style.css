@@ -171,3 +171,43 @@ nav{
 .box-container .view-more:hover{
     background-color: rgba(75, 68, 68, 0.7);
 }
+
+/* join section  */
+
+.join-section{
+    width: 80%;
+    margin: 40px auto;
+}
+.join-section h3{
+    font-weight: 900;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+.join-section .join{
+    height: 200px;
+    background: linear-gradient(to bottom right,rgb(31, 31, 122),rgb(104, 58, 58));
+    width: 23%;
+    border-radius: 10px;
+}
+.join-container{
+    display: flex;
+    justify-content: space-between;
+}
+.join{
+    padding: 20px 0 0 12px ;
+}
+.join h4{
+    margin-bottom: 20px;
+}
+.join-container .join p{
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255,0.6);
+}
+.join-container .join div{
+    padding: 55px 0 0 185px;
+    font-size: 30px;
+}
+.join-container .join .user-div{
+    padding: 45px 0 0 185px;
+}
