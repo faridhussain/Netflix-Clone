@@ -211,3 +211,26 @@ nav{
 .join-container .join .user-div{
     padding: 45px 0 0 185px;
 }
+
+/* Question section */
+
+.question-section{
+    width: 80%;
+    margin: 30px 0;
+}
+.question-box{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(31, 29, 29);
+    margin-bottom: 5px;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.2s ease;
+}
+.question-box:hover{
+    background-color: rgb(56, 51, 51);
+}
