@@ -125,12 +125,10 @@ main .section2 .main-button2 {
   border: 1px solid #e00914;
 }
 
-
 /* trending page  */
 
-
 .trending-page {
-  width: 85vw;
+  width: 85%;
   margin: 40px auto;
 }
 .trending-page .trend-img-container {
@@ -174,4 +172,52 @@ main .section2 .main-button2 {
 .trending-page h1 {
   font-family: netflix;
   font-size: 25px;
+  font-weight: 700;
+}
+
+/* join section  */
+
+.join-section {
+  width: 100%;
+  margin: 40px 0;
+}
+
+.join-section h1 {
+  font-family: netflix;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.join-section .join-container-parent .join-container {
+  height: 280px;
+  width: 23%;
+  background: linear-gradient(to bottom right, rgb(13, 13, 129), rgb(164, 22, 53));
+  margin-bottom: 50px;
+}
+.join-section .join-container-parent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.join-icon {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  position: absolute;
+  bottom: 15px;
+    right: 15px;
+  font-size: 35px;
+}
+.join-section .join-container-parent .join-container h2{
+    font-size: 20px;
+    padding: 16px;
+    font-family: netflix;
+}
+
+.join-section .join-container-parent .join-container p{
+    padding: 16px;
+    font-family: netflix;
+}
+.join-container{
+    border-radius: 15px;
+    position: relative;
 }

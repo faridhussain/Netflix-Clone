@@ -65,7 +65,7 @@
   .trending-page {
     width: 100%;
   }
-  .trending-page h1{
+  .trending-page h1 {
     padding: 12px;
   }
 }
@@ -73,6 +73,18 @@
 @media (max-width: 1000px) {
   .header {
     height: 80vh;
+  }
+
+  .join-icon {
+    font-size: 30px;
+  }
+
+  .join-section .join-container-parent .join-container h2 {
+    padding: 10px;
+  }
+
+  .join-section .join-container-parent .join-container p {
+    padding: 10px;
   }
 
   main {
@@ -117,6 +129,25 @@
   .trend-img-container .trend-img img {
     height: 250px;
   }
+
+  .join-section .join-container-parent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .join-section .join-container-parent .join-container {
+    height: 240px;
+    width: 46%;
+    background: linear-gradient(
+      to bottom right,
+      rgb(13, 13, 129),
+      rgb(164, 22, 53)
+    );
+    margin-bottom: 20px;
+  }
+
   .trend-img-container .trend-img h1 {
     position: absolute;
     top: 60%;
@@ -166,6 +197,16 @@
 @media (max-width: 600px) {
   nav .nav-image img {
     height: 35px;
+  }
+
+  .join-section .join-container-parent .join-container h2 {
+    font-size: 20px;
+    padding: 10px;
+    font-family: netflix;
+  }
+
+  .join-section .join-container-parent .join-container p {
+    padding: 10px;
   }
 
   .nav-button .button {
@@ -285,9 +326,51 @@
     padding-top: 20px;
     justify-content: space-evenly;
   }
+
+  .join-section .join-container-parent .join-container h2{
+    font-size: 18px;
+  }
+
+  .join-section .join-container-parent .join-container p{
+    font-size: 14px;
+  }
+
 }
-@media (max-width : 500px) {
-  .trending-page h1{
+@media (max-width: 500px) {
+  .trending-page h1 {
     text-align: center;
+  }
+
+
+
+  .join-section .join-container-parent {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .join-section .join-container-parent .join-container {
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+  }
+  .join-section .join-container-parent .join-container h2 {
+    font-size: 5vw;
+    padding: 12px;
+  }
+  .join-section .join-container-parent .join-container p {
+    font-size: 3.8vw;
+    padding: 12px;
+  }
+  .join-icon {
+    font-size: 6vw;
+  }
+
+  .join-section .join-container-parent .join-container h2{
+    font-size: 20px;
+  }
+
+  .join-section .join-container-parent .join-container p{
+    font-size: 16px;
   }
 }
