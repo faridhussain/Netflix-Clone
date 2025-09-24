@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: netflix;
 }
 
 html,
@@ -191,7 +190,6 @@ main .section2 .main-button2 {
   height: 280px;
   width: 23%;
   background: linear-gradient(to bottom right, rgb(13, 13, 129), rgb(164, 22, 53));
-  margin-bottom: 50px;
 }
 .join-section .join-container-parent {
   display: flex;
@@ -220,4 +218,39 @@ main .section2 .main-button2 {
 .join-container{
     border-radius: 15px;
     position: relative;
+}
+
+/* question section  */
+
+.question-section{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.question-section h1{
+  font-family: netflix;
+  font-size: 27px;
+  margin-bottom: 30px;
+}
+
+.question-section .question-box{
+  width: 98%;
+  height: 80px;
+  background-color: rgb(54, 48, 48);
+  display: flex;
+  margin: 10px auto;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;transition: background-color 0.3s ease-in-out;
+}
+.question-section .question-box h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 27px;
+}
+.question-section .question-box i{
+  font-size: 35px;
+}
+.question-section .question-box:hover{
+  background-color: #5c5858;
 }
