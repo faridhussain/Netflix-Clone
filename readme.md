@@ -14,4 +14,4 @@ A simple Netflix clone built for learning web development.
 
 ## Live Demo
 
-[live demo](harmonious-madeleine-7e1d04.netlify.app)
+[live demo](https://harmonious-madeleine-7e1d04.netlify.app/)
