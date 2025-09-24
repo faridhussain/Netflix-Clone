@@ -226,6 +226,15 @@
     padding-top: 20px;
     justify-content: space-evenly;
   }
+
+  footer .links{
+    display: block;
+  }
+
+  footer .links a{
+    margin-bottom: 13px;
+  }
+
 }
 
 @media (max-width: 600px) {

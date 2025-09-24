@@ -189,7 +189,11 @@ main .section2 .main-button2 {
 .join-section .join-container-parent .join-container {
   height: 280px;
   width: 23%;
-  background: linear-gradient(to bottom right, rgb(13, 13, 129), rgb(164, 22, 53));
+  background: linear-gradient(
+    to bottom right,
+    rgb(13, 13, 129),
+    rgb(164, 22, 53)
+  );
 }
 .join-section .join-container-parent {
   display: flex;
@@ -202,39 +206,39 @@ main .section2 .main-button2 {
   align-items: end;
   position: absolute;
   bottom: 15px;
-    right: 15px;
+  right: 15px;
   font-size: 35px;
 }
-.join-section .join-container-parent .join-container h2{
-    font-size: 20px;
-    padding: 16px;
-    font-family: netflix;
+.join-section .join-container-parent .join-container h2 {
+  font-size: 20px;
+  padding: 16px;
+  font-family: netflix;
 }
 
-.join-section .join-container-parent .join-container p{
-    padding: 16px;
-    font-family: netflix;
+.join-section .join-container-parent .join-container p {
+  padding: 16px;
+  font-family: netflix;
 }
-.join-container{
-    border-radius: 15px;
-    position: relative;
+.join-container {
+  border-radius: 15px;
+  position: relative;
 }
 
 /* question section  */
 
-.question-section{
+.question-section {
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
-.question-section h1{
+.question-section h1 {
   font-family: netflix;
   font-size: 27px;
   margin-bottom: 30px;
 }
 
-.question-section .question-box{
+.question-section .question-box {
   width: 98%;
   height: 75px;
   background-color: rgb(50, 50, 51);
@@ -242,27 +246,29 @@ main .section2 .main-button2 {
   margin: 10px auto;
   justify-content: space-between;
   padding: 20px;
-  align-items: center;transition: background-color 0.3s ease-in-out;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
 }
-.question-section .question-box h2{
+.question-section .question-box h2 {
   font-family: Verdana, Genlogin-sans-serif;
   font-weight: 300;
   font-size: 24px;
 }
-.question-section .question-box i{
+.question-section .question-box i {
   font-size: 35px;
 }
-.question-section .question-box:hover{
+.question-section .question-box:hover {
   background-color: #5c5858;
 }
 
 /* login-section  */
 
-.login-section{
+.login-section {
   width: 100%;
-  margin : 0 auto;
+  margin: 0 auto;
+  margin-bottom: 60px;
 }
-.login-section input{
+.login-section input {
   height: 55px;
   width: 40vw;
   background-color: transparent;
@@ -270,7 +276,7 @@ main .section2 .main-button2 {
   border: 1px solid rgb(53, 49, 49);
   border-radius: 7px;
 }
-.login-section button{
+.login-section button {
   height: 55px;
   width: 15vw;
   border-radius: 7px;
@@ -279,24 +285,50 @@ main .section2 .main-button2 {
   border: none;
   font-size: 1.3vw;
 }
-.login-section p{
+.login-section p {
   text-align: center;
   margin-bottom: 10px;
   font-family: netflix;
   font-size: 1.3vw;
 }
-.login-section .login-container{
+.login-section .login-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
 }
 
-.login-section input::placeholder{
+.login-section input::placeholder {
   font-size: 15px;
 }
 
-.login-section button:hover{
+.login-section button:hover {
   background-color: #d40a14;
 }
 
+/* footer section  */
+
+footer{
+  width: 95%;
+  height: 200px;
+  font-family: netflix;
+  margin: 0 auto;
+}
+footer p{
+  margin-bottom: 40px;
+  color: #BBBBBB;
+  text-decoration: underline;
+}
+footer .links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .links a{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #BBBBBB;
+  cursor: pointer;
+}
