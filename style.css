@@ -225,6 +225,7 @@ main .section2 .main-button2 {
 .question-section{
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .question-section h1{
@@ -235,8 +236,8 @@ main .section2 .main-button2 {
 
 .question-section .question-box{
   width: 98%;
-  height: 80px;
-  background-color: rgb(54, 48, 48);
+  height: 75px;
+  background-color: rgb(50, 50, 51);
   display: flex;
   margin: 10px auto;
   justify-content: space-between;
@@ -244,9 +245,9 @@ main .section2 .main-button2 {
   align-items: center;transition: background-color 0.3s ease-in-out;
 }
 .question-section .question-box h2{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Genlogin-sans-serif;
   font-weight: 300;
-  font-size: 27px;
+  font-size: 24px;
 }
 .question-section .question-box i{
   font-size: 35px;
@@ -254,3 +255,48 @@ main .section2 .main-button2 {
 .question-section .question-box:hover{
   background-color: #5c5858;
 }
+
+/* login-section  */
+
+.login-section{
+  width: 100%;
+  margin : 0 auto;
+}
+.login-section input{
+  height: 55px;
+  width: 40vw;
+  background-color: transparent;
+  padding: 20px;
+  border: 1px solid rgb(53, 49, 49);
+  border-radius: 7px;
+}
+.login-section button{
+  height: 55px;
+  width: 15vw;
+  border-radius: 7px;
+  background-color: #ff000d;
+  color: white;
+  border: none;
+  font-size: 1.3vw;
+}
+.login-section p{
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: netflix;
+  font-size: 1.3vw;
+}
+.login-section .login-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.login-section input::placeholder{
+  font-size: 15px;
+}
+
+.login-section button:hover{
+  background-color: #d40a14;
+}
+

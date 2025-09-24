@@ -78,6 +78,9 @@
   .question-section .question-box i {
     font-size: 35px;
   }
+  .login-section .login-container .login-button1{
+    width: 45vw;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -183,6 +186,20 @@
     padding-top: 20px;
     justify-content: space-evenly;
   }
+
+  .login-section p{
+    font-size: 1.8vw;
+  }
+
+  .login-section .login-container input{
+    width: 60vw !important;
+  }
+
+  .login-section .login-container .login-button2{
+    width: 25vw;
+    font-size: 2.2vw;
+  }
+
 }
 
 @media (max-width: 750px) {
@@ -214,6 +231,23 @@
 @media (max-width: 600px) {
   nav .nav-image img {
     height: 35px;
+  }
+
+  .login-section input {
+    height: 45px !important;
+    width: 65vw !important;
+    padding: 10px;
+  }
+  .login-section input::placeholder{
+    font-size: 3vw;
+  }
+  .login-section .login-container button {
+    height: 45px !important;
+    width: 37vw !important;
+    font-size: 3.2vw !important;
+  }
+  .login-section p {
+    font-size: 3.2vw;
   }
 
   .question-section .question-box h2 {
@@ -364,7 +398,7 @@
     font-size: 18px;
   }
 
-  .question-section{
+  .question-section {
     width: 95%;
   }
 
@@ -406,5 +440,14 @@
 
   .join-section .join-container-parent .join-container p {
     font-size: 16px;
+  }
+  .login-section .login-container .login-button{
+    height: 42px;
+  }
+  .login-section .login-container .login-button input{
+    width: 60vw;
+  }
+  .login-section .login-container .login-button button{
+    width: 40vw;
   }
 }
