@@ -3,11 +3,20 @@
     width: 50%;
   }
 }
+
 @media (max-width: 1400px) {
   main {
     width: 60%;
   }
 }
+
+@media (max-width: 1300px) {
+  .trending-page {
+    width: 90%;
+    margin: 40px auto;
+  }
+}
+
 @media (max-width: 1200px) {
   .header {
     height: 90vh;
@@ -35,7 +44,7 @@
     padding: 25px;
   }
 
-  main .section2 .main-button{
+  main .section2 .main-button {
     height: 45px;
   }
 
@@ -45,6 +54,19 @@
 
   main .section2 .main-button2 {
     width: 18vw;
+  }
+
+  .trend-img-container .trend-img img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .trending-page {
+    width: 100%;
+  }
+  .trending-page h1{
+    padding: 12px;
   }
 }
 
@@ -90,6 +112,57 @@
     font-size: 2vw;
   }
 }
+
+@media (max-width: 900px) {
+  .trend-img-container .trend-img img {
+    height: 250px;
+  }
+  .trend-img-container .trend-img h1 {
+    position: absolute;
+    top: 60%;
+    left: -25px;
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+      1px 1px 0 white, -1px 0px 0 white, 1px 0px 0 white, 0px -1px 0 white,
+      0px 1px 0 white;
+  }
+
+  .trending-page .trend-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 750px) {
+  .trending-page h1 {
+    padding-left: 8px;
+  }
+  .trend-img-container .trend-img img {
+    height: 250px;
+  }
+  .trend-img-container .trend-img h1 {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+      1px 1px 0 white, -1px 0px 0 white, 1px 0px 0 white, 0px -1px 0 white,
+      0px 1px 0 white;
+  }
+  .trending-page .trend-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: space-evenly;
+  }
+}
+
 @media (max-width: 600px) {
   nav .nav-image img {
     height: 35px;
@@ -140,46 +213,81 @@
     background-size: cover;
   }
 
-  main{
+  main {
     width: 90%;
     display: flex;
     flex-wrap: wrap;
   }
 
-  main .section1 h1{
+  main .section1 h1 {
     font-size: 24px;
   }
 
-  main .section1 h3{
-    font-size:17px;
+  main .section1 h3 {
+    font-size: 17px;
   }
 
-  main .section1 p{
+  main .section1 p {
     font-size: 13px;
     margin-bottom: 10px;
   }
 
-  main .section2{
+  main .section2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  main .section2 .main-button{
+  main .section2 .main-button {
     height: 50px;
-  } 
+  }
 
-  main .section2 .main-button1{
+  main .section2 .main-button1 {
     width: 80vw;
   }
 
-  main .section2 .main-button1::placeholder{
+  main .section2 .main-button1::placeholder {
     font-size: 12px;
   }
 
-  main .section2 .main-button2{
+  main .section2 .main-button2 {
     width: 200px;
     font-size: 18px;
+  }
+
+  .trending-page {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+
+  .trending-page h1 {
+    padding-left: 8px;
+  }
+  .trend-img-container .trend-img img {
+    height: 200px;
+  }
+  .trend-img-container .trend-img h1 {
+    position: absolute;
+    top: 60%;
+    left: -18px;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+      1px 1px 0 white, -1px 0px 0 white, 1px 0px 0 white, 0px -1px 0 white,
+      0px 1px 0 white;
+  }
+
+  .trending-page .trend-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width : 500px) {
+  .trending-page h1{
+    text-align: center;
   }
 }

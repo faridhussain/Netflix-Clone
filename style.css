@@ -1,125 +1,177 @@
 @font-face {
-    font-family: netflix;
-    src: url(fonts/netflix-sans-core-variable-full.woff2);
+  font-family: netflix;
+  src: url(fonts/netflix-sans-core-variable-full.woff2);
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: netflix;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: netflix;
 }
 
 html,
 body {
-    height: 100%;
-    width: 100%;
-    background-color: #000000;
-    color: #F2F2F2;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  color: #f2f2f2;
 }
 
 .header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assests/header-image.png);
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(assests/header-image.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
 }
 
 /* nav  */
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 25px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 0;
 }
 
 nav .nav-image img {
-    height: 40px;
+  height: 40px;
 }
 
 .nav-button .button {
-    height: 35px;
-    padding: 5px;
-    border-radius: 5px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .nav-button .button1 {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background: none;
-    width: 130px;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #F2F2F2;
-    text-align: center;
-    border: 1px solid rgb(119, 117, 117);
-    font-size: 15px;
-    font-weight: 700;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: none;
+  width: 130px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #f2f2f2;
+  text-align: center;
+  border: 1px solid rgb(119, 117, 117);
+  font-size: 15px;
+  font-weight: 700;
 }
-.nav-button .button2{
-    width: 70px;
-    background-color: #e00914;
-    color: white;
-    border: 1px solid #e00914;
-    font-weight: 700;
-    font-size: 14px;
+.nav-button .button2 {
+  width: 70px;
+  background-color: #e00914;
+  color: white;
+  border: 1px solid #e00914;
+  font-weight: 700;
+  font-size: 14px;
 }
-.nav-button{
-    display: flex;
-    gap: 10px;
+.nav-button {
+  display: flex;
+  gap: 10px;
 }
 
 /* main  */
 
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 90%;
-    width: 40%;
-    margin: 0 auto;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90%;
+  width: 40%;
+  margin: 0 auto;
 }
-main .section1 h1{
-    font-size: 3vw;
-    font-family: netflix;
-    font-weight: 900;
+main .section1 h1 {
+  font-size: 3vw;
+  font-family: netflix;
+  font-weight: 900;
 }
-main .section1 h3{
-    font-size: 2vw;
-    font-family: netflix;
-    line-height: 3;
+main .section1 h3 {
+  font-size: 2vw;
+  font-family: netflix;
+  line-height: 3;
 }
-main .section1 p{
-    font-size: 1vw;
-    font-family: netflix;
-    line-height: 2.5;
+main .section1 p {
+  font-size: 1vw;
+  font-family: netflix;
+  line-height: 2.5;
 }
-main .section2 .main-button{
-    height: 60px;
-    border-radius: 5px;
+main .section2 .main-button {
+  height: 60px;
+  border-radius: 5px;
 }
-main .section2 .main-button1{
-    width: 450px;
-    background : linear-gradient(rgba(30, 29, 29, 0.7));
-    border: 1px solid rgb(116, 112, 112);
-    padding-left: 11px;
-    font-size: 17px;
+main .section2 .main-button1 {
+  width: 450px;
+  background: linear-gradient(rgba(30, 29, 29, 0.7));
+  border: 1px solid rgb(116, 112, 112);
+  padding-left: 11px;
+  font-size: 17px;
 }
-.main-button1::placeholder{
-    color: rgb(172, 162, 162);
+.main-button1::placeholder {
+  color: rgb(172, 162, 162);
 }
-main .section2{
-    display: flex;
-    gap: 8px;
+main .section2 {
+  display: flex;
+  gap: 8px;
 }
-main .section2 .main-button2{
-    width: 210px;
-    font-size: 23px;
-    font-family: netflix;
-    background-color: #e00914;
-    color: #F2F2F2;
-    font-weight: 700;
-    border: 1px solid #e00914;
+main .section2 .main-button2 {
+  width: 210px;
+  font-size: 23px;
+  font-family: netflix;
+  background-color: #e00914;
+  color: #f2f2f2;
+  font-weight: 700;
+  border: 1px solid #e00914;
+}
+
+
+/* trending page  */
+
+
+.trending-page {
+  width: 85vw;
+  margin: 40px auto;
+}
+.trending-page .trend-img-container {
+  display: flex;
+  padding-top: 20px;
+  gap: 5px;
+  justify-content: space-around;
+}
+.trend-img-container .trend-img img {
+  border-radius: 7px;
+  height: 300px;
+  transition: transform 0.3s ease;
+}
+
+.trend-img-container .trend-img:hover h1 {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.trend-img-container .trend-img img:hover {
+  transform: scale(1.1);
+}
+
+.trend-img-container .trend-img h1 {
+  position: absolute;
+  top: 60%;
+  left: -20px;
+  font-size: 80px;
+  font-weight: 900;
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white, -1px 0px 0 white, 1px 0px 0 white, 0px -1px 0 white,
+    0px 1px 0 white;
+  z-index: 10;
+}
+
+.trend-img-container .trend-img {
+  position: relative;
+}
+
+.trending-page h1 {
+  font-family: netflix;
+  font-size: 25px;
 }
