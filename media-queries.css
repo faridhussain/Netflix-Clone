@@ -1,72 +1,14 @@
-@media (max-width : 600px) {
-  nav .nav-image img {
-    height: 20px;
-  }
-
-  .nav-button .button {
-    height: 25px;
-    padding: 5px;
-    border-radius: 5px;
-  }
-
-  .nav-button .button1 {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background: none;
-    width: 40px;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #F2F2F2;
-    text-align: center;
-    border: 1px solid rgb(119, 117, 117);
-    font-size: 11px;
-    font-weight: 700;
-  }
-
-  .nav-button .button span {
-    display: none;
-  }
-
-  .nav-button .button2 {
-    width: 50px;
-    background-color: #e00914;
-    color: white;
-    border: 1px solid #e00914;
-    font-weight: 700;
-    font-size: 10px;
-  }
-
-  main {
-    width: 40%;
-    height: 80%;
-  }
-
-  main .section1 h1 {
-    font-size: 9vw;
-  }
-
-  main .section1 h3 {
-    font-size: 2vw;
-  }
-
-  main .section1 p {
-    font-size: 1.2vw;
-  }
-}
-
-@media (max-width : 1550px) {
+@media (max-width: 1550px) {
   main {
     width: 50%;
   }
 }
-
-@media (max-width : 1400px) {
+@media (max-width: 1400px) {
   main {
     width: 60%;
   }
 }
-
-@media (max-width : 1200px) {
+@media (max-width: 1200px) {
   .header {
     height: 90vh;
   }
@@ -93,6 +35,10 @@
     padding: 25px;
   }
 
+  main .section2 .main-button{
+    height: 45px;
+  }
+
   main .section2 .main-button1 {
     width: 30vw;
   }
@@ -102,27 +48,27 @@
   }
 }
 
-@media (max-width : 1000px) {
+@media (max-width: 1000px) {
   .header {
     height: 80vh;
   }
 
   main {
-    width: 80%;
+    width: 60%;
     height: 80%;
   }
 
   main .section1 h1 {
-    font-size: 3.7vw;
+    font-size: 3.9vw;
   }
 
   main .section1 h3 {
-    font-size: 3vw;
+    font-size: 2.8vw;
     line-height: 2;
   }
 
   main .section1 p {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     line-height: 2;
   }
 
@@ -142,5 +88,98 @@
   main .section2 .main-button1 {
     width: 40vw;
     font-size: 2vw;
+  }
+}
+@media (max-width: 600px) {
+  nav .nav-image img {
+    height: 35px;
+  }
+
+  .nav-button .button {
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  nav {
+    padding: 0 20px;
+    height: 70px;
+  }
+
+  .nav-button .button1 {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: none;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #f2f2f2;
+    text-align: center;
+    border: 1px solid rgb(119, 117, 117);
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .nav-button .button span {
+    display: none;
+  }
+
+  .nav-button .button2 {
+    width: 50px;
+    background-color: #e00914;
+    color: white;
+    border: 1px solid #e00914;
+    font-weight: 700;
+    font-size: 10px;
+  }
+
+  .header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(assests/header-image.png);
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+  }
+
+  main{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  main .section1 h1{
+    font-size: 24px;
+  }
+
+  main .section1 h3{
+    font-size:17px;
+  }
+
+  main .section1 p{
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  main .section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main .section2 .main-button{
+    height: 50px;
+  } 
+
+  main .section2 .main-button1{
+    width: 80vw;
+  }
+
+  main .section2 .main-button1::placeholder{
+    font-size: 12px;
+  }
+
+  main .section2 .main-button2{
+    width: 200px;
+    font-size: 18px;
   }
 }
