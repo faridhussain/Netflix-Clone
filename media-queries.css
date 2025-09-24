@@ -227,6 +227,10 @@
     justify-content: space-evenly;
   }
 
+  footer{
+    height: 550px;
+  }
+
   footer .links{
     display: block;
   }
